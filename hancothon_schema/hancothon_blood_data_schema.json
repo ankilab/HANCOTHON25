@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LabResults",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "patient_id": {
+        "type": "string"
+      },
+      "value": {
+        "type": "number"
+      },
+      "unit": {
+        "type": ["string", "null"]
+      },
+      "analyte_name": {
+        "type": "string"
+      },
+      "LOINC_code": {
+        "type": "string",
+        "pattern": "^[0-9]+-[0-9]$"
+      },
+      "LOINC_name": {
+        "type": "string"
+      },
+      "group": {
+        "type": "string"
+      },
+      "days_before_first_treatment": {
+        "type": "integer"
+      }
+    },
+    "required": [
+      "patient_id",
+      "value",
+      "unit",
+      "analyte_name",
+      "LOINC_code",
+      "LOINC_name",
+      "group",
+      "days_before_first_treatment"
+    ],
+    "additionalProperties": false
+  }
+}

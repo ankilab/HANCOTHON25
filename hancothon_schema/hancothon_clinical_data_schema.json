@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PatientClinicalInfo",
+  "type": "object",
+  "properties": {
+    "patient_id": {
+      "type": "string"
+    },
+    "year_of_initial_diagnosis": {
+      "type": "integer"
+    },
+    "age_at_initial_diagnosis": {
+      "type": "integer"
+    },
+    "sex": {
+      "type": "string",
+      "enum": ["male", "female", "other"]
+    },
+    "smoking_status": {
+      "type": ["string", "null"],
+      "enum": ["former", "smoker", "non-smoker", null]
+    },
+    "primarily_metastasis": {
+      "type": ["string", "null"],
+      "enum": ["yes", "no", null]
+    },
+    "days_to_last_information": {
+      "type": "integer"
+    },
+    "first_treatment_intent": {
+      "type": ["string", "null"],
+      "enum": ["curative", "palliative", null]
+    },
+    "first_treatment_modality": {
+      "type": "string"
+    },
+    "days_to_first_treatment": {
+      "type": "integer"
+    },
+    "adjuvant_treatment_intent": {
+      "type": ["string", "null"],
+      "enum": ["curative", "palliative", null]
+    },
+    "adjuvant_radiotherapy": {
+      "type": "string",
+      "enum": ["yes", "no", "unknown"]
+    },
+    "adjuvant_radiotherapy_modality": {
+      "type": ["string", "null"]
+    },
+    "adjuvant_systemic_therapy": {
+      "type": ["string", "null"],
+      "enum": ["yes", "no", null]
+    },
+    "adjuvant_systemic_therapy_modality": {
+      "type": ["string", "null"]
+    },
+    "adjuvant_radiochemotherapy": {
+      "type": ["string", "null"],
+      "enum": ["yes", "no", null]
+    }
+  },
+  "required": [
+    "patient_id",
+    "year_of_initial_diagnosis",
+    "age_at_initial_diagnosis",
+    "sex",
+    "smoking_status",
+    "primarily_metastasis",
+    "days_to_last_information",
+    "first_treatment_intent",
+    "first_treatment_modality",
+    "days_to_first_treatment",
+    "adjuvant_treatment_intent",
+    "adjuvant_radiotherapy",
+    "adjuvant_radiotherapy_modality",
+    "adjuvant_systemic_therapy",
+    "adjuvant_systemic_therapy_modality",
+    "adjuvant_radiochemotherapy"
+  ],
+  "additionalProperties": false
+}

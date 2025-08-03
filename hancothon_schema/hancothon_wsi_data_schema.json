@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "WSI",
+  "type": "object",
+  "properties": {
+    "features": {
+      "type": "array",
+      "items": {
+        "type": "array",
+        "minItems": 1024,
+        "maxItems": 1024,
+        "items": {
+          "type": "number"
+        }
+      }
+    },
+    "coords": {
+      "type": "array",
+      "items": {
+        "type": "array",
+        "minItems": 2,
+        "maxItems": 2,
+        "items": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    }
+  },
+  "required": [
+    "features",
+    "coords"
+  ],
+  "additionalProperties": false
+}

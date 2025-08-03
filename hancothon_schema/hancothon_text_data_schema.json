@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TextData",
+  "type": "object",
+  "properties": {
+    "patient_id": {
+      "type": "string"
+    },
+    "history": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "report": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "description": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "required": [
+    "patient_id",
+    "histroy",
+    "report",
+    "description"
+  ],
+  "additionalProperties": false
+}

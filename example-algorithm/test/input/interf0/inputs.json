@@ -1,0 +1,316 @@
+[
+    {
+        "file": "https://grand-challenge.org/media/some-link/hancock-blood-data.json",
+        "image": null,
+        "value": null,
+        "interface": {
+            "slug": "hancock-blood-data",
+            "kind": "Anything",
+            "super_kind": "File",
+            "relative_path": "hancock-blood-data.json",
+            "example_value": {
+                "key": "value",
+                "None": null
+            }
+        }
+    },
+    {
+        "file": "https://grand-challenge.org/media/some-link/hancock-clinical-data.json",
+        "image": null,
+        "value": null,
+        "interface": {
+            "slug": "hancock-clinical-data",
+            "kind": "Anything",
+            "super_kind": "File",
+            "relative_path": "hancock-clinical-data.json",
+            "example_value": {
+                "key": "value",
+                "None": null
+            }
+        }
+    },
+    {
+        "file": "https://grand-challenge.org/media/some-link/hancock-pathological-data.json",
+        "image": null,
+        "value": null,
+        "interface": {
+            "slug": "hancock-pathological-data",
+            "kind": "Anything",
+            "super_kind": "File",
+            "relative_path": "hancock-pathological-data.json",
+            "example_value": {
+                "key": "value",
+                "None": null
+            }
+        }
+    },
+    {
+        "file": "https://grand-challenge.org/media/some-link/hancock-primary-tumor-wsi-embeddings.json",
+        "image": null,
+        "value": null,
+        "interface": {
+            "slug": "hancock-primary-tumor-wsi-embeddings",
+            "kind": "Anything",
+            "super_kind": "File",
+            "relative_path": "hancock-primary-tumor-wsi-embeddings.json",
+            "example_value": {
+                "key": "value",
+                "None": null
+            }
+        }
+    },
+    {
+        "file": "https://grand-challenge.org/media/some-link/hancock-lymph-node-wsi-embeddings.json",
+        "image": null,
+        "value": null,
+        "interface": {
+            "slug": "hancock-lymph-node-wsi-embeddings",
+            "kind": "Anything",
+            "super_kind": "File",
+            "relative_path": "hancock-lymph-node-wsi-embeddings.json",
+            "example_value": {
+                "key": "value",
+                "None": null
+            }
+        }
+    },
+    {
+        "file": null,
+        "image": {
+            "name": "the_original_filename_of_the_file_that_was_uploaded.suffix"
+        },
+        "value": null,
+        "interface": {
+            "slug": "hancock-tma-tumor-center-core-he-1",
+            "kind": "Image",
+            "super_kind": "Image",
+            "relative_path": "images/hancock_tma_tumor_center_HE_1",
+            "example_value": null
+        }
+    },
+    {
+        "file": null,
+        "image": {
+            "name": "the_original_filename_of_the_file_that_was_uploaded.suffix"
+        },
+        "value": null,
+        "interface": {
+            "slug": "hancock-tma-tumor-center-core-he-2",
+            "kind": "Image",
+            "super_kind": "Image",
+            "relative_path": "images/hancock_tma_tumor_center_HE_2",
+            "example_value": null
+        }
+    },
+    {
+        "file": null,
+        "image": {
+            "name": "the_original_filename_of_the_file_that_was_uploaded.suffix"
+        },
+        "value": null,
+        "interface": {
+            "slug": "hancock-tma-tumor-center-core-cd3-1",
+            "kind": "Image",
+            "super_kind": "Image",
+            "relative_path": "images/hancock_tma_tumor_center_CD3_1",
+            "example_value": null
+        }
+    },
+    {
+        "file": null,
+        "image": {
+            "name": "the_original_filename_of_the_file_that_was_uploaded.suffix"
+        },
+        "value": null,
+        "interface": {
+            "slug": "hancock-tma-tumor-center-core-cd3-2",
+            "kind": "Image",
+            "super_kind": "Image",
+            "relative_path": "images/hancock_tma_tumor_center_CD3_2",
+            "example_value": null
+        }
+    },
+    {
+        "file": null,
+        "image": {
+            "name": "the_original_filename_of_the_file_that_was_uploaded.suffix"
+        },
+        "value": null,
+        "interface": {
+            "slug": "hancock-tma-tumor-center-core-cd8-1",
+            "kind": "Image",
+            "super_kind": "Image",
+            "relative_path": "images/hancock_tma_tumor_center_CD8_1",
+            "example_value": null
+        }
+    },
+    {
+        "file": null,
+        "image": {
+            "name": "the_original_filename_of_the_file_that_was_uploaded.suffix"
+        },
+        "value": null,
+        "interface": {
+            "slug": "hancock-tma-tumor-center-core-cd8-2",
+            "kind": "Image",
+            "super_kind": "Image",
+            "relative_path": "images/hancock_tma_tumor_center_CD8_2",
+            "example_value": null
+        }
+    },
+    {
+        "file": null,
+        "image": {
+            "name": "the_original_filename_of_the_file_that_was_uploaded.suffix"
+        },
+        "value": null,
+        "interface": {
+            "slug": "hancock-tma-tumor-center-core-cd56-1",
+            "kind": "Image",
+            "super_kind": "Image",
+            "relative_path": "images/hancock_tma_tumor_center_CD56_1",
+            "example_value": null
+        }
+    },
+    {
+        "file": null,
+        "image": {
+            "name": "the_original_filename_of_the_file_that_was_uploaded.suffix"
+        },
+        "value": null,
+        "interface": {
+            "slug": "hancock-tma-tumor-center-core-cd56-2",
+            "kind": "Image",
+            "super_kind": "Image",
+            "relative_path": "images/hancock_tma_tumor_center_CD56_2",
+            "example_value": null
+        }
+    },
+    {
+        "file": null,
+        "image": {
+            "name": "the_original_filename_of_the_file_that_was_uploaded.suffix"
+        },
+        "value": null,
+        "interface": {
+            "slug": "hancock-tma-tumor-center-core-cd68-1",
+            "kind": "Image",
+            "super_kind": "Image",
+            "relative_path": "images/hancock_tma_tumor_center_CD68_1",
+            "example_value": null
+        }
+    },
+    {
+        "file": null,
+        "image": {
+            "name": "the_original_filename_of_the_file_that_was_uploaded.suffix"
+        },
+        "value": null,
+        "interface": {
+            "slug": "hancock-tma-tumor-center-core-cd68-2",
+            "kind": "Image",
+            "super_kind": "Image",
+            "relative_path": "images/hancock_tma_tumor_center_CD68_2",
+            "example_value": null
+        }
+    },
+    {
+        "file": null,
+        "image": {
+            "name": "the_original_filename_of_the_file_that_was_uploaded.suffix"
+        },
+        "value": null,
+        "interface": {
+            "slug": "hancock-tma-tumor-center-core-cd163-1",
+            "kind": "Image",
+            "super_kind": "Image",
+            "relative_path": "images/hancock_tma_tumor_center_CD163_1",
+            "example_value": null
+        }
+    },
+    {
+        "file": null,
+        "image": {
+            "name": "the_original_filename_of_the_file_that_was_uploaded.suffix"
+        },
+        "value": null,
+        "interface": {
+            "slug": "hancock-tma-tumor-center-core-cd163-2",
+            "kind": "Image",
+            "super_kind": "Image",
+            "relative_path": "images/hancock_tma_tumor_center_CD163_2",
+            "example_value": null
+        }
+    },
+    {
+        "file": null,
+        "image": {
+            "name": "the_original_filename_of_the_file_that_was_uploaded.suffix"
+        },
+        "value": null,
+        "interface": {
+            "slug": "hancock-tma-tumor-center-core-mhc-1-1",
+            "kind": "Image",
+            "super_kind": "Image",
+            "relative_path": "images/hancock_tma_tumor_center_MHC-1_1",
+            "example_value": null
+        }
+    },
+    {
+        "file": null,
+        "image": {
+            "name": "the_original_filename_of_the_file_that_was_uploaded.suffix"
+        },
+        "value": null,
+        "interface": {
+            "slug": "hancock-tma-tumor-center-core-mhc-1-2",
+            "kind": "Image",
+            "super_kind": "Image",
+            "relative_path": "images/hancock_tma_tumor_center_MHC-1_2",
+            "example_value": null
+        }
+    },
+    {
+        "file": null,
+        "image": {
+            "name": "the_original_filename_of_the_file_that_was_uploaded.suffix"
+        },
+        "value": null,
+        "interface": {
+            "slug": "hancock-tma-tumor-center-core-pd-l1-1",
+            "kind": "Image",
+            "super_kind": "Image",
+            "relative_path": "images/hancock_tma_tumor_center_PD-L1_1",
+            "example_value": null
+        }
+    },
+    {
+        "file": null,
+        "image": {
+            "name": "the_original_filename_of_the_file_that_was_uploaded.suffix"
+        },
+        "value": null,
+        "interface": {
+            "slug": "hancock-tma-tumor-center-core-pd-l1-2",
+            "kind": "Image",
+            "super_kind": "Image",
+            "relative_path": "images/hancock_tma_tumor_center_PD-L1_2",
+            "example_value": null
+        }
+    },
+    {
+        "file": "https://grand-challenge.org/media/some-link/hancock-surgery-text-data.json",
+        "image": null,
+        "value": null,
+        "interface": {
+            "slug": "hancock-surgery-text-data",
+            "kind": "Anything",
+            "super_kind": "File",
+            "relative_path": "hancock-surgery-text-data.json",
+            "example_value": {
+                "key": "value",
+                "None": null
+            }
+        }
+    }
+]

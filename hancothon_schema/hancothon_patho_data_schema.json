@@ -1,0 +1,174 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PatientPathologyInfo",
+  "type": "object",
+  "properties": {
+    "patient_id": {
+      "type": "string"
+    },
+    "primary_tumor_site": {
+      "type": "string",
+      "enum": [
+        "Hypopharynx",
+        "Larynx",
+        "Oropharynx",
+        "Oral_Cavity",
+        "CUP"
+      ]
+    },
+    "pT_stage": {
+      "type": "string",
+      "enum": [
+        "pT1",
+        "pT1a",
+        "pT1b",
+        "pT2",
+        "pT2a",
+        "pT2b",
+        "pT3",
+        "pT3a",
+        "pT3b",
+        "pT4",
+        "pT4a",
+        "pT4b",
+        "pTis",
+        "TX"
+      ]
+    },
+    "pN_stage": {
+      "type": "string",
+      "enum": [
+        "pN0",
+        "pN1",
+        "pN1a",
+        "pN1b",
+        "pN1c",
+        "pN2",
+        "pN2a",
+        "pN2b",
+        "pN2c",
+        "pN3",
+        "pN3a",
+        "pN3b",
+        "pN3c",
+        "NX"
+      ]
+    },
+    "grading": {
+      "type": "string",
+      "enum": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "GX",
+        "hpv_association_p16"
+      ]
+    },
+    "hpv_association_p16": {
+      "type": "string",
+      "enum": [
+        "positive",
+        "negative",
+        "not_tested"
+      ]
+    },
+    "number_of_positive_lymph_nodes": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "number_of_resected_lymph_nodes": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "perinodal_invasion": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "yes",
+        "no",
+        null
+      ]
+    },
+    "lymphovascular_invasion_L": {
+      "type": "string",
+      "enum": [
+        "yes",
+        "no",
+        "unknown"
+      ]
+    },
+    "vascular_invasion_V": {
+      "type": "string",
+      "enum": [
+        "yes",
+        "no",
+        "unknown"
+      ]
+    },
+    "perineural_invasion_Pn": {
+      "type": "string",
+      "enum": [
+        "yes",
+        "no",
+        "unknown"
+      ]
+    },
+    "resection_status": {
+      "type": "string",
+      "enum": [
+        "R0",
+        "R1",
+        "R2",
+        "RX"
+      ]
+    },
+    "resection_status_carcinoma_in_situ": {
+      "type": "string"
+    },
+    "carcinoma_in_situ": {
+      "type": "string",
+      "enum": [
+        "yes",
+        "no",
+        "unknown"
+      ]
+    },
+    "closest_resection_margin_in_cm": {
+      "type": ["string", "null"]
+    },
+    "histologic_type": {
+      "type": ["string", "null"]
+    },
+    "infiltration_depth_in_mm": {
+      "type": ["number", "null"],
+      "minimum": 0
+    }
+  },
+  "required": [
+    "patient_id",
+    "primary_tumor_site",
+    "pT_stage",
+    "pN_stage",
+    "grading",
+    "hpv_association_p16",
+    "number_of_positive_lymph_nodes",
+    "number_of_resected_lymph_nodes",
+    "perinodal_invasion",
+    "lymphovascular_invasion_L",
+    "vascular_invasion_V",
+    "perineural_invasion_Pn",
+    "resection_status",
+    "resection_status_carcinoma_in_situ",
+    "carcinoma_in_situ",
+    "closest_resection_margin_in_cm",
+    "histologic_type",
+    "infiltration_depth_in_mm"
+  ],
+  "additionalProperties": false
+}
